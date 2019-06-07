@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Input Settings")]
-    public int playerId;
+    public int playerId; 
 
     [Header("Character Attributes")]
     [Range(0,15)]
