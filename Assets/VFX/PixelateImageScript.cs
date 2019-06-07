@@ -17,7 +17,8 @@ public class PixelateImageScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("Running in Edit Mode.");
+
     }
 
     void OnRenderImage(RenderTexture src, RenderTexture dst)
