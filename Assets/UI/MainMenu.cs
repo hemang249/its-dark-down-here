@@ -7,8 +7,28 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        Debug.Log("Working!");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        
     }
+
+    public void PlayGameWithWait()
+    {
+        Invoke ("PlayGame", 5.0f);
+    }
+
+    public AudioSource uiSounds;
+    public AudioClip hoverSound;
+    public AudioClip clickSound;
+
+    public AudioSource UiSounds { get => uiSounds; set => uiSounds = value; }
+
+    public void HoverSound()
+    {
+        uiSounds.PlayOneShot (hoverSound);
+    }
+
+    public void ClickSound()
+    {
+        uiSounds.PlayOneShot(clickSound);
+    }
+
 }
