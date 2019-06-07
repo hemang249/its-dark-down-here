@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGameWithWait()
     {
-        Invoke ("PlayGame", 5.0f);
+        Invoke ("PlayGame", 1.0f);
     }
 
     public AudioSource uiSounds;
