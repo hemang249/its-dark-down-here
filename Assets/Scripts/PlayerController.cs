@@ -17,12 +17,16 @@ public class PlayerController : MonoBehaviour
     public Vector3 movementDirection;
     public float movementSpeed;
 
+    [Space]
+    [Header("Refrences")]
     private Animator animator;
+    private SpriteRenderer sr;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -45,11 +49,13 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-       transform.position += movementBaseSpeed * movementDirection * Time.deltaTime;
+       transform.position += movementBaseSpeed * movementDirection * Time.deltaTime;    // Using Transform based for simpler outcomes instead of using rigid body and complicating movement
 
        if(movementDirection.y != 0)     // If moving along the  Y Axis , Play the Top Down Animation
        {
            animator.SetBool("isWalkingTopDown",true);
+
+          
        }
        else
        {
