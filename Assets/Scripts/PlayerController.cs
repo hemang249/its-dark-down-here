@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[DefaultExecutionOrder(-100)]
 public class PlayerController : MonoBehaviour
 {
     [Header("Input Settings")]
