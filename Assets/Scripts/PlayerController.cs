@@ -5,27 +5,35 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Space]
+    [Header("UI")]
+    private TimeSpan GlobalTimeSpan;    // Global Dark Time String Format
+    private TimeSpan LocalTimeSpan;     // Local Dark Time String Format
+
+
     [Header("Input Settings")]
     public int playerId; 
 
     [Header("Character Attributes")]
     [Range(0,15)]
-    public float movementBaseSpeed = 5.0f;
+    public float movementBaseSpeed = 5.0f;  // movement speed
 
     [Space]
     [Header("Character Statistics")]
     public Vector3 movementDirection;
     public float movementSpeed;
+    public float globalDarkTime = 0;
+    public float localDarkTime = 0;
 
     [Space]
     [Header("Refrences")]
-    private Animator animator;
-    private SpriteRenderer sr;
+    private Animator animator;  // Ref to Animator attatch to player
+    private SpriteRenderer sr;  // Ref to SpriteRenderer attatch to player
 
     [Space]
     [Header("Triggers")]
-    public bool inDark = false;
-    public bool effectedByLight = true;
+    public bool inDark = false;     // To check if player is in dark
+    public bool effectedByLight = true;     // To check if any Light is effecting plauyer
 
     // Start is called before the first frame update
     void Start()
@@ -46,14 +54,28 @@ public class PlayerController : MonoBehaviour
         if(inDark)
         {
             Debug.Log("In Dark");
+            globalDarkTime += Time.deltaTime;
+            localDarkTime += Time.deltaTime;
             // TODO: ADD SOME SORT OF EFFECT
         }
         else
         {
             Debug.Log("In Light");
+            localDarkTime = 0;
+            
         }
 
     }
+
+    void OnGUI()
+    {
+        GlobalTimeSpan = TimeSpan.FromSeconds(globalDarkTime);
+        LocalTimeSpan = TimeSpan.FromSeconds(localDarkTime);
+        // Debug.Log(GlobalTimeSpan); UnComment to see how it will display
+        // Add the GUI Update Code here
+
+    }
+
 
     void ProcessInputs()
     {
