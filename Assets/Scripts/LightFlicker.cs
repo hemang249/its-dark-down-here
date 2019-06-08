@@ -1,8 +1,4 @@
-﻿// This script causes the light component of a child object to flicker in a realistic
-// fashion. This is used on the wall torches. Since this script is slightly expensive
-// and purely cosmetic, it will only run on non-mobile platforms
-
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LightFlicker : MonoBehaviour
 {
