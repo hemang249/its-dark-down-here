@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class PlayerController : MonoBehaviour
 {
     [Header("Input Settings")]
@@ -23,6 +22,11 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private SpriteRenderer sr;
 
+    [Space]
+    [Header("Triggers")]
+    public bool inDark = true;
+    public bool effectedByLight = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +39,19 @@ public class PlayerController : MonoBehaviour
     {
         ProcessInputs();
         Move();
+
+        if(effectedByLight == false)
+            inDark = true;
+            
+        if(inDark)
+        {
+            Debug.Log("In Dark");
+            // TODO: ADD SOME SORT OF EFFECT
+        }
+        else
+        {
+            Debug.Log("In Light");
+        }
 
     }
 
@@ -55,8 +72,7 @@ public class PlayerController : MonoBehaviour
        if(movementDirection.y != 0)     // If moving along the  Y Axis , Play the Top Down Animation
        {
            animator.SetBool("isWalkingTopDown",true);
-
-          
+         
        }
        else
        {
