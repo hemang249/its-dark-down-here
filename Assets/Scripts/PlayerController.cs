@@ -67,18 +67,44 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-        Debug.Log(transform);
-       transform.position += movementBaseSpeed * movementDirection * Time.deltaTime;    // Using Transform based for simpler outcomes instead of using rigid body and complicating movement
+       
+        transform.position += movementBaseSpeed * movementDirection * Time.deltaTime;    // Using Transform based for simpler outcomes instead of using rigid body and complicating movement
+        
+        if(movementDirection.y != 0)     // If moving along the  Y Axis , Play the Top Down Animation
+        {
+            animator.SetBool("isWalkingTopDown",true);
+            animator.SetBool("isWalkingSideWays", false);
+            sr.flipX = false;
+            if (movementDirection.y == -1.0f)
+            {
+                sr.flipY = true;
+            }
+            else
+            {
+                sr.flipY = false;
+            }
 
-       if(movementDirection.y != 0)     // If moving along the  Y Axis , Play the Top Down Animation
-       {
-           animator.SetBool("isWalkingTopDown",true);
-         
-       }
-       else
-       {
-           animator.SetBool("isWalkingTopDown",false);
-       }
+        }
+        else if(movementDirection.x != 0) // If moving along the  X Axis , Play the Left Right Animation
+        {
+            animator.SetBool("isWalkingTopDown",false);
+            animator.SetBool("isWalkingSideWays",true);
+            sr.flipY = false;
+            if (movementDirection.x == -1.0f)
+            {
+                sr.flipX = true;
+            }
+            else
+            { 
+                sr.flipX = false;
+            }
+
+        }
+        else
+        {
+            animator.SetBool("isWalkingTopDown", false);
+            animator.SetBool("isWalkingSideWays", false);
+        }
     }
-
+    
 }
