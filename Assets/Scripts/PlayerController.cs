@@ -67,6 +67,7 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
+        Debug.Log(transform);
        transform.position += movementBaseSpeed * movementDirection * Time.deltaTime;    // Using Transform based for simpler outcomes instead of using rigid body and complicating movement
 
        if(movementDirection.y != 0)     // If moving along the  Y Axis , Play the Top Down Animation
