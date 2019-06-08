@@ -49,7 +49,7 @@ public class TorchScript : MonoBehaviour
        Torch.intensity = intensity;
 
        if(isUsingTorch)
-           Invoke("TorchFlicker", 0.5f);
+           Invoke("TorchFlicker", 0.3f);
        else
            Torch.intensity = 0f;
    }

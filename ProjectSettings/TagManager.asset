@@ -15,9 +15,9 @@ TagManager:
   - 
   - Player
   - PostProcessing
-  - 
-  - 
-  - 
+  - Traps
+  - Torches
+  - Floor
   - 
   - 
   - 
@@ -41,8 +41,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Floor
     uniqueID: 1318459873
+    locked: 0
+  - name: Walls
+    uniqueID: 314802975
     locked: 0
   - name: Player
     uniqueID: 3803612853
