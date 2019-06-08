@@ -6,7 +6,7 @@ public class LightDetectionScript : MonoBehaviour
 {
     public GameObject player;
     private PlayerController pc;
-    private bool playerInRange = true;
+    private bool playerInRange = false;
 
     [Space]
     [Header("Ray Casting Attributes")]
@@ -24,7 +24,7 @@ public class LightDetectionScript : MonoBehaviour
         
         float distance = Vector2.Distance(transform.position , player.transform.position);
 
-        if(playerInRange)
+        if(playerInRange || distance <= rayLength)
         {   
             if(distance <= rayLength)
             {

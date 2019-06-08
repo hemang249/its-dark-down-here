@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
 
     [Space]
     [Header("Triggers")]
-    public bool inDark = true;
+    public bool inDark = false;
     public bool effectedByLight = true;
 
     // Start is called before the first frame update
