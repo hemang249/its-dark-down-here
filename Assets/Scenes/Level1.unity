@@ -259,6 +259,10 @@ MonoBehaviour:
   movementBaseSpeed: 5
   movementDirection: {x: 0, y: 0, z: 0}
   movementSpeed: 1
+  globalDarkTime: 0
+  localDarkTime: 0
+  inDark: 0
+  effectedByLight: 1
 --- !u!4 &417764020
 Transform:
   m_ObjectHideFlags: 0
@@ -828,6 +832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 924608426}
   - component: {fileID: 924608425}
+  - component: {fileID: 924608427}
   m_Layer: 9
   m_Name: EntranceLight
   m_TagString: Untagged
@@ -909,6 +914,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &924608427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924608424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29ab2bb5c5067d18898cd68492a4a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &1019409286
 GameObject:
   m_ObjectHideFlags: 0
