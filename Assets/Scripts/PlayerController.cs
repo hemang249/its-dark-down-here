@@ -5,11 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Space]
-    [Header("UI")]
-    private TimeSpan GlobalTimeSpan;    // Global Dark Time String Format
-    private TimeSpan LocalTimeSpan;     // Local Dark Time String Format
-
+   
 
     [Header("Input Settings")]
     public int playerId; 
@@ -64,15 +60,6 @@ public class PlayerController : MonoBehaviour
             localDarkTime = 0;
             
         }
-
-    }
-
-    void OnGUI()
-    {
-        GlobalTimeSpan = TimeSpan.FromSeconds(globalDarkTime);
-        LocalTimeSpan = TimeSpan.FromSeconds(localDarkTime);
-        // Debug.Log(GlobalTimeSpan); UnComment to see how it will display
-        // Add the GUI Update Code here
 
     }
 

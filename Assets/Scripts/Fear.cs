@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Fear : MonoBehaviour
 {
@@ -9,7 +11,13 @@ public class Fear : MonoBehaviour
     [Header("Player Statistics")]
     public GameObject Player;
     private float LocalDarkTime;
-    private float GlobalLocalTime;
+    private float GlobalDarkTime;
+
+    [Space]
+    [Header("UI")]
+    public TextMeshProUGUI TimeText;
+    private TimeSpan GlobalTimeSpan;    // Global Dark Time String Format
+    private TimeSpan LocalTimeSpan;     // Local Dark Time String Format
 
     [Space]
     [Header("Fear Attributes")]
@@ -31,13 +39,14 @@ public class Fear : MonoBehaviour
     void Update()
     {
         UpdateFearBar();
+        UpdateGUI();
     }
 
     void UpdateFearBar()
     {
         // fetch values of Dark Time from PlayerControllerScript
         LocalDarkTime = Player.GetComponent<PlayerController>().localDarkTime; 
-        GlobalLocalTime = Player.GetComponent<PlayerController>().globalDarkTime;
+        GlobalDarkTime = Player.GetComponent<PlayerController>().globalDarkTime;
 
         fearAmount = LocalDarkTime;     
 
@@ -48,5 +57,15 @@ public class Fear : MonoBehaviour
             else
                 fearBar.fillAmount -= 0.005f;       // Decrease the bar once in light
         }
+    }
+
+     void UpdateGUI()
+    {
+        GlobalTimeSpan = TimeSpan.FromSeconds((int)GlobalDarkTime);
+        LocalTimeSpan = TimeSpan.FromSeconds(LocalDarkTime);
+
+        if(TimeText != null)
+            TimeText.text = GlobalTimeSpan.ToString();       
+
     }
 }

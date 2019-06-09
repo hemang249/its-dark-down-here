@@ -53,6 +53,7 @@ public class LightDetectionScript : MonoBehaviour
             if(hit.collider.tag == "Player")
             {
                pc.inDark = false;
+               
                pc.effectedByLight = true;
             
             }
