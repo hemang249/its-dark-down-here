@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5886900270672737408}
   - component: {fileID: 4413335476938760443}
   - component: {fileID: 1901744635747595975}
-  - component: {fileID: 1934206103427063445}
+  - component: {fileID: 1984660648441355261}
   m_Layer: 0
   m_Name: TorchGlow
   m_TagString: Untagged
@@ -213,7 +213,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1934206103427063445
+--- !u!114 &1984660648441355261
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

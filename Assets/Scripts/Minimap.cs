@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UIElements;
+﻿using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+public class Minimap : MonoBehaviour
 {
-    private Transform playerTransform;
+    public Transform playerTransform;
 
    void Start()
     {
