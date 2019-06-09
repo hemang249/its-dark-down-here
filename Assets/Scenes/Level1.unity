@@ -367,9 +367,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  TimeText: {fileID: 211755802}
+  LocalDarkTime: 0
+  GlobalDarkTime: 0
   fillAmount: 0
   fearAmount: 0
+  currentState: 0
 --- !u!1 &211755800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3736,7 +3738,7 @@ GameObject:
   - component: {fileID: 1357181723}
   m_Layer: 5
   m_Name: FearPanel
-  m_TagString: Untagged
+  m_TagString: FearPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3776,9 +3778,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  TimeText: {fileID: 0}
+  LocalDarkTime: 0
+  GlobalDarkTime: 0
   fillAmount: 0
   fearAmount: 0
+  currentState: 0
 --- !u!1 &1436173376
 GameObject:
   m_ObjectHideFlags: 0
@@ -16415,6 +16419,16 @@ PrefabInstance:
       propertyPath: FearPanel
       value: 
       objectReference: {fileID: 1357181721}
+    - target: {fileID: 3461626569735620376, guid: b908e79ad5dd70f48a0610c023d2f1ea,
+        type: 3}
+      propertyPath: TorchCounterText
+      value: 
+      objectReference: {fileID: 226155923}
+    - target: {fileID: 3461626569735620376, guid: b908e79ad5dd70f48a0610c023d2f1ea,
+        type: 3}
+      propertyPath: TimerText
+      value: 
+      objectReference: {fileID: 211755802}
     - target: {fileID: 3461626569735620378, guid: b908e79ad5dd70f48a0610c023d2f1ea,
         type: 3}
       propertyPath: m_UiScaleMode

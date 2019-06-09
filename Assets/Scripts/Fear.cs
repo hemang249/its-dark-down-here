@@ -10,37 +10,44 @@ public class Fear : MonoBehaviour
     [Space]
     [Header("Player Statistics")]
     public GameObject Player;
-    private float LocalDarkTime;
-    private float GlobalDarkTime;
+    public float LocalDarkTime;
+    public float GlobalDarkTime;
 
     [Space]
     [Header("UI")]
-    public TextMeshProUGUI TimeText;
     private TimeSpan GlobalTimeSpan;    // Global Dark Time String Format
     private TimeSpan LocalTimeSpan;     // Local Dark Time String Format
 
     [Space]
     [Header("Fear Attributes")]
-   
     public float fillAmount = 0f;
     public  float fearAmount;
+
+    public enum FearState{
+        NotTooScared,
+        LittleScared,
+        ModeratelyScared,
+        VeryScared
+    }
+
+    public FearState currentState;
 
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
-         
-     
+        currentState = FearState.NotTooScared;
         fearAmount = 0f;
         fillAmount = 0f;
     }
 
     void Update()
     {
-        UpdateFearBar();
-        UpdateGUI();
+        UpdateFear();
+        UpdateFearState();
+        Debug.Log(currentState);
     }
 
-    void UpdateFearBar()
+    void UpdateFear()
     {
         // fetch values of Dark Time from PlayerControllerScript
         LocalDarkTime = Player.GetComponent<PlayerController>().localDarkTime; 
@@ -54,15 +61,28 @@ public class Fear : MonoBehaviour
         else
             fillAmount -= 0.005f;       // Decrease the bar once in light
         
+
     }
 
-     void UpdateGUI()
+    void UpdateFearState()
     {
-        GlobalTimeSpan = TimeSpan.FromSeconds((int)GlobalDarkTime);
-        LocalTimeSpan = TimeSpan.FromSeconds(LocalDarkTime);
-
-        if(TimeText != null)
-            TimeText.text = GlobalTimeSpan.ToString();       
-
+        if(fillAmount <= 0.25f)
+        {
+            currentState = FearState.NotTooScared;
+        }
+        else if(fillAmount > 0.25f  && fillAmount <= 0.5f )
+        {
+            currentState = FearState.LittleScared;
+        }
+        else if(fillAmount > 0.5f  && fillAmount <= 0.75f )
+        {
+            currentState = FearState.ModeratelyScared;
+        }
+        else if(fillAmount > 0.75f  && fillAmount <= 1.0f)
+        {
+            currentState = FearState.VeryScared;
+        }
     }
+
+    
 }

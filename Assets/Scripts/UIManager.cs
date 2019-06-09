@@ -13,7 +13,15 @@ public class UIManager : MonoBehaviour
         -TORCH COUNTER
         -DARK TIME DISPLAY    
      */     
-   
+    
+    [Header("Fear Timer UI")]
+    public TextMeshProUGUI TimerText;
+
+    
+    [Header("Torch Counter UI")]
+    public TextMeshProUGUI TorchCounterText;
+
+
     [Header("Fear Bar UI")]
     public Image FearBar;
     private float fillAmount;
@@ -21,6 +29,7 @@ public class UIManager : MonoBehaviour
 
     [Header("Script References")]
     private PlayerController pc;
+    private TorchScript ts;
     private Fear fs;
 
 
@@ -33,12 +42,15 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         pc = Player.GetComponent<PlayerController>();
+        ts = Player.GetComponent<TorchScript>();
         fs = FearPanel.GetComponent<Fear>(); 
     }
 
     void Update()
     {
         UpdateFearUI();
+        UpdateTimer();
+        UpdateTorchCounter();
     }
 
     void UpdateFearUI()
@@ -47,6 +59,21 @@ public class UIManager : MonoBehaviour
         {
             FearBar.fillAmount = fs.fillAmount;
         }
+    }
+
+    void UpdateTimer()
+    {
+         GlobalTimeSpan = TimeSpan.FromSeconds((int)(fs.GlobalDarkTime) );
+         
+        if(TimerText != null)   // null reference safety
+            TimerText.text = GlobalTimeSpan.ToString();
+
+    }
+
+    void UpdateTorchCounter()
+    {
+        if(TorchCounterText != null)    // null references safety
+            TorchCounterText.text = ts.numberOfTorches.ToString();
     }
   
 
