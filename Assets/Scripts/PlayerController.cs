@@ -49,14 +49,14 @@ public class PlayerController : MonoBehaviour
             
         if(inDark)
         {
-            Debug.Log("In Dark");
+            
             globalDarkTime += Time.deltaTime;
             localDarkTime += Time.deltaTime;
             // TODO: ADD SOME SORT OF EFFECT
         }
         else
         {
-            Debug.Log("In Light");
+           
             localDarkTime = 0;
             
         }

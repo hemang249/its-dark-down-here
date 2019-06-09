@@ -1,12 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class TorchScript : MonoBehaviour
 {
     
     private GameObject player;
     private PlayerController pc;
+
+   
+   [Space]
+   [Header("UI")]
+   public TextMeshProUGUI torchCounterText;
 
    [Space]
    [Header("Torch Attributes")]
@@ -25,7 +31,9 @@ public class TorchScript : MonoBehaviour
 
    void Update()
    {
-       if( Input.GetKey(KeyCode.Space) && !isUsingTorch)
+       UpdateGUI();
+       
+       if( Input.GetKey(KeyCode.Space) && !isUsingTorch && numberOfTorches != 0)
        {
             pc.effectedByLight = true;
             pc.inDark = false;
@@ -65,5 +73,13 @@ public class TorchScript : MonoBehaviour
            Invoke("TorchFlicker", 0.5f);
        else
            Torch.intensity = 0f;
+   }
+
+   void UpdateGUI()
+   {
+       if(torchCounterText != null)
+       {
+           torchCounterText.text = ":" + numberOfTorches;
+       }
    }
 }
