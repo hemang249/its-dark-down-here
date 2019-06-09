@@ -1,18 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Fear : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float fear;
+    public float fearTime;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+
 }
