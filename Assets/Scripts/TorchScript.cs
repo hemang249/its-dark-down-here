@@ -79,7 +79,7 @@ public class TorchScript : MonoBehaviour
    {
        if(torchCounterText != null)
        {
-           torchCounterText.text = ":" + numberOfTorches;
+           torchCounterText.text =  numberOfTorches.ToString();
        }
    }
 }

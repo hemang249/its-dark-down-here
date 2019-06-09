@@ -21,19 +21,17 @@ public class Fear : MonoBehaviour
 
     [Space]
     [Header("Fear Attributes")]
-    private Image fearBar;      
-    private float fillAmount = 0f;
+   
+    public float fillAmount = 0f;
     public  float fearAmount;
 
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
          
-        fearBar = GetComponent<Image>();
+     
         fearAmount = 0f;
-        
-        if(fearBar != null)     // To prevent a Null Refrence Exception
-            fearBar.fillAmount = 0f;
+        fillAmount = 0f;
     }
 
     void Update()
@@ -50,13 +48,12 @@ public class Fear : MonoBehaviour
 
         fearAmount = LocalDarkTime;     
 
-        if(fearBar != null)     // Null Reference Prevention
-        {     
-            if(LocalDarkTime != 0)      
-                fearBar.fillAmount = fearAmount / 10f;      // Every 1 sec = 0.1 Fill of Bar
-            else
-                fearBar.fillAmount -= 0.005f;       // Decrease the bar once in light
-        }
+         
+        if(LocalDarkTime != 0)      
+            fillAmount = fearAmount / 10f;      // Every 1 sec = 0.1 Fill of Bar
+        else
+            fillAmount -= 0.005f;       // Decrease the bar once in light
+        
     }
 
      void UpdateGUI()

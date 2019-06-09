@@ -1,7 +1,5 @@
-﻿// This script will take in values from GameManager and PlayerController to print to UI.
-
-
-using System.Collections;
+﻿using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,40 +7,47 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-     
-    // Other scripts access this one through its public static methods.
-    public TextMeshProUGUI fearTime;        //Text element showing time in dark
-
-    [SerializeField]
-    private float fearAmount;
-
-    private 
-
-    void update()
-    {
-        //fearTime.text = PlayerController.globalDarkTime();
-
-        FearBar();
-
-
-    }
-
-    private void FearBar()
-    {
+    /*  FOLLOWING UI HANDLED HERE
         
-    }
+        -FEAR BAR 
+        -TORCH COUNTER
+        -DARK TIME DISPLAY    
+     */     
+   
+    [Header("Fear Bar UI")]
+    public Image FearBar;
+    private float fillAmount;
+    private TimeSpan GlobalTimeSpan;
+
+    [Header("Script References")]
+    private PlayerController pc;
+    private Fear fs;
 
 
-    /**
-    public static void UpdateFearUI(float time)
+
+    [Header("GameObject References")]
+    public GameObject Player;
+    public GameObject FearPanel;
+
+
+    void Start()
     {
-        // int minutes = (int)(time / 60);
-        // float seconds = time % 60f;
-
-        // current.fearTimeText.text = minutes.ToString("00") + ":" + seconds.ToString("00");
-        
-        fearTime.text = PlayerController.globalDarkTime(time);
+        pc = Player.GetComponent<PlayerController>();
+        fs = FearPanel.GetComponent<Fear>(); 
     }
-    **/
+
+    void Update()
+    {
+        UpdateFearUI();
+    }
+
+    void UpdateFearUI()
+    {
+        if(FearBar != null)     // For Preventing a Null Ref Exception
+        {
+            FearBar.fillAmount = fs.fillAmount;
+        }
+    }
+  
 
 }
