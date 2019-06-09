@@ -17,7 +17,7 @@ public class TorchScript : MonoBehaviour
    [Space]
    [Header("Torch Attributes")]
    public Light Torch;
-   [SerializeField] int numberOfTorches = 4;    // Number of torches player will spawn with
+   public int numberOfTorches = 4;    // Number of torches player will spawn with
    public float torchLife = 5f;    // Time the torch will last 
    private bool isUsingTorch = false;
 
@@ -31,8 +31,7 @@ public class TorchScript : MonoBehaviour
 
    void Update()
    {
-       UpdateGUI();
-       
+     
        if( Input.GetKey(KeyCode.Space) && !isUsingTorch && numberOfTorches != 0)
        {
             pc.effectedByLight = true;
@@ -75,11 +74,5 @@ public class TorchScript : MonoBehaviour
            Torch.intensity = 0f;
    }
 
-   void UpdateGUI()
-   {
-       if(torchCounterText != null)
-       {
-           torchCounterText.text =  numberOfTorches.ToString();
-       }
-   }
+  
 }

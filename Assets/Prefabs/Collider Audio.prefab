@@ -61,6 +61,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 613a2abc8b6d58f039accf66a1c39c68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: []
+  FearPanel: {fileID: 0}
 --- !u!82 &6995886104590326618
 AudioSource:
   m_ObjectHideFlags: 0
