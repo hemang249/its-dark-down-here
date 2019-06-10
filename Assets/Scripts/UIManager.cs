@@ -11,17 +11,25 @@ public class UIManager : MonoBehaviour
         
         -FEAR BAR 
         -TORCH COUNTER
-        -DARK TIME DISPLAY    
+        -DARK TIME DISPLAY 
+        -Direction Arrow   
      */     
     
     [Header("Fear Timer UI")]
     public TextMeshProUGUI TimerText;
 
-    
+    [Header("Pause Menu UI")]
+    public GameObject PauseMenuPanel;
+    private bool isPaused = false;
     [Header("Torch Counter UI")]
     public TextMeshProUGUI TorchCounterText;
 
+    
+    [Header("Direction UI")]
+    public Image DirectionArrow;
+    public Transform Exit;
 
+    
     [Header("Fear Bar UI")]
     public Image FearBar;
     private float fillAmount;
@@ -41,6 +49,7 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
+        isPaused = false;
         pc = Player.GetComponent<PlayerController>();
         ts = Player.GetComponent<TorchScript>();
         fs = FearPanel.GetComponent<Fear>(); 
@@ -51,6 +60,8 @@ public class UIManager : MonoBehaviour
         UpdateFearUI();
         UpdateTimer();
         UpdateTorchCounter();
+        PauseMenu();
+        //UpdateDirection();
     }
 
     void UpdateFearUI()
@@ -75,6 +86,47 @@ public class UIManager : MonoBehaviour
         if(TorchCounterText != null)    // null references safety
             TorchCounterText.text = ts.numberOfTorches.ToString();
     }
-  
+
+    void UpdateDirection()
+    {
+        float relativeAngle = Vector3.Angle(Player.transform.position , Exit.position );
+        DirectionArrow.rectTransform.rotation = Quaternion.Euler(0,0,relativeAngle);
+    }
+
+    void PauseMenu()
+    {
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            if(!isPaused)
+            {
+                PauseMenuPanel.SetActive(true);
+                Pause();
+                isPaused = true;
+            }
+          
+        }
+    }
+
+    public void Pause()
+    {
+        PauseMenuPanel.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
+        Debug.Log("Presed");
+
+    }
+
+    public void Resume()
+    {
+        PauseMenuPanel.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
+        Debug.Log("Resumed");
+    }
+
+    public void GiveUp()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+    }  
 
 }
