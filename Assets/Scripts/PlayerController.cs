@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     [Header("Refrences")]
     private Animator animator;  // Ref to Animator attatch to player
     private SpriteRenderer sr;  // Ref to SpriteRenderer attatch to player
+    private TorchScript ts;
 
     [Space]
     [Header("Triggers")]
@@ -34,6 +35,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ts = GetComponent<TorchScript>();
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
     }
@@ -87,6 +89,15 @@ public class PlayerController : MonoBehaviour
        {
            animator.SetBool("isWalkingTopDown",false);
        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.gameObject.tag == "CollectibleTorch")
+        {
+            ts.numberOfTorches ++;
+            Destroy(other.gameObject);
+        }        
     }
 
 }
