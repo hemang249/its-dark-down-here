@@ -1,0 +1,1243 @@
+fileFormatVersion: 2
+guid: 8903152353c108c478ebc73f4cf2956d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4309791026364644330
+    second: itsdarkdownhere_spritesheet_0
+  - first:
+      213: -6745966095549894997
+    second: itsdarkdownhere_spritesheet_1
+  - first:
+      213: -565472447659172474
+    second: itsdarkdownhere_spritesheet_2
+  - first:
+      213: -8119968103533128526
+    second: itsdarkdownhere_spritesheet_3
+  - first:
+      213: 1003972125247115527
+    second: itsdarkdownhere_spritesheet_4
+  - first:
+      213: -7817546766519510471
+    second: itsdarkdownhere_spritesheet_5
+  - first:
+      213: 1256776178566181890
+    second: itsdarkdownhere_spritesheet_6
+  - first:
+      213: -8071057559230348286
+    second: itsdarkdownhere_spritesheet_7
+  - first:
+      213: -2736674564443817596
+    second: itsdarkdownhere_spritesheet_8
+  - first:
+      213: -6436430286175187018
+    second: itsdarkdownhere_spritesheet_9
+  - first:
+      213: -6189914171302465879
+    second: itsdarkdownhere_spritesheet_10
+  - first:
+      213: -8383211724036611833
+    second: itsdarkdownhere_spritesheet_11
+  - first:
+      213: 86522874697816910
+    second: itsdarkdownhere_spritesheet_12
+  - first:
+      213: -1954537189314405458
+    second: itsdarkdownhere_spritesheet_13
+  - first:
+      213: -4243934248173637864
+    second: itsdarkdownhere_spritesheet_14
+  - first:
+      213: 2580599373740804473
+    second: itsdarkdownhere_spritesheet_15
+  - first:
+      213: 4990159193526186108
+    second: itsdarkdownhere_spritesheet_16
+  - first:
+      213: -5990558094641647104
+    second: itsdarkdownhere_spritesheet_17
+  - first:
+      213: 5887272357180408482
+    second: itsdarkdownhere_spritesheet_18
+  - first:
+      213: 5507355238022311327
+    second: itsdarkdownhere_spritesheet_19
+  - first:
+      213: 3997858928498463829
+    second: itsdarkdownhere_spritesheet_20
+  - first:
+      213: 6271660185600155227
+    second: itsdarkdownhere_spritesheet_21
+  - first:
+      213: 2091863041139163156
+    second: itsdarkdownhere_spritesheet_22
+  - first:
+      213: -2163246812769113208
+    second: itsdarkdownhere_spritesheet_23
+  - first:
+      213: -8711343985339951000
+    second: itsdarkdownhere_spritesheet_24
+  - first:
+      213: 88920494528707192
+    second: itsdarkdownhere_spritesheet_25
+  - first:
+      213: -1058378553023465523
+    second: itsdarkdownhere_spritesheet_26
+  - first:
+      213: 6218145289452048365
+    second: itsdarkdownhere_spritesheet_27
+  - first:
+      213: -310458298732764394
+    second: itsdarkdownhere_spritesheet_28
+  - first:
+      213: -1139142384789951887
+    second: itsdarkdownhere_spritesheet_29
+  - first:
+      213: 7615305105897622484
+    second: itsdarkdownhere_spritesheet_30
+  - first:
+      213: -7546639137135269142
+    second: itsdarkdownhere_spritesheet_31
+  - first:
+      213: 8847468109338027579
+    second: itsdarkdownhere_spritesheet_32
+  - first:
+      213: 1746082215686503319
+    second: itsdarkdownhere_spritesheet_33
+  - first:
+      213: 5564176212752738527
+    second: itsdarkdownhere_spritesheet_34
+  - first:
+      213: 7034650435936353836
+    second: itsdarkdownhere_spritesheet_35
+  - first:
+      213: -1321364268765593419
+    second: itsdarkdownhere_spritesheet_36
+  - first:
+      213: 2537479827829227889
+    second: itsdarkdownhere_spritesheet_37
+  - first:
+      213: 4975360169672574788
+    second: itsdarkdownhere_spritesheet_38
+  - first:
+      213: 2673465447501124161
+    second: itsdarkdownhere_spritesheet_39
+  - first:
+      213: 4395895419744807305
+    second: itsdarkdownhere_spritesheet_40
+  - first:
+      213: 8883379902905643197
+    second: itsdarkdownhere_spritesheet_41
+  - first:
+      213: 8229858292227476893
+    second: itsdarkdownhere_spritesheet_42
+  - first:
+      213: 327682705751399887
+    second: itsdarkdownhere_spritesheet_43
+  - first:
+      213: 6985928359951332622
+    second: itsdarkdownhere_spritesheet_44
+  - first:
+      213: 2431217021124130432
+    second: itsdarkdownhere_spritesheet_45
+  - first:
+      213: 8088749966335785448
+    second: itsdarkdownhere_spritesheet_46
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1823
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d4d461a64a52547a51b2c1fe84fd65
+      internalID: -4309791026364644330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1823
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e960f28b9cad3438e625df60ae4940
+      internalID: -6745966095549894997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1823
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abc6024dd1708448ab06c9a435300a4
+      internalID: -565472447659172474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1823
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fd0ac3619906344a1939f53deb1b7e
+      internalID: -8119968103533128526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1823
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7922e879d928b6f4e976c5bbb6b7a289
+      internalID: 1003972125247115527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 1823
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c06a2d0ab0e4b48b42fe957a0d7960
+      internalID: -7817546766519510471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1598
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ea507646303da408e38414c267b2b6
+      internalID: 1256776178566181890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1598
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1fd6e4d8121b04082464f6c78480dd
+      internalID: -8071057559230348286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1598
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927030202bea55840adff5c5ce4eb516
+      internalID: -2736674564443817596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1598
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc8c0686bd19fd4fb1b5d0d8a91f271
+      internalID: -6436430286175187018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1598
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3c9dab91fc6fa4eb08760fbe996d4b
+      internalID: -6189914171302465879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 1598
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9d0fd2b73a48f46a310720392b23b5
+      internalID: -8383211724036611833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1373
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57de1b4ae75eaec4d914293f6f787e57
+      internalID: 86522874697816910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1373
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cf9e85908feb644ba3ac5483bd486b
+      internalID: -1954537189314405458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1373
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c17ed0222670645a10d7272c5f1e6a
+      internalID: -4243934248173637864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1373
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaf63fc645f86c4f9ead6f265e41e32
+      internalID: 2580599373740804473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1373
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a06e5aa2ed74143b12b13e7dcc1aeb
+      internalID: 4990159193526186108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 1373
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48d4af6742b54c49a1c4cb2b1047a51
+      internalID: -5990558094641647104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1148
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f4faf04d4696e4faba6afb42d8d4b8
+      internalID: 5887272357180408482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1148
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290e5842517adc4408245e37a7123cef
+      internalID: 5507355238022311327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1148
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df940452cef13394e876e72b14423abb
+      internalID: 3997858928498463829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1148
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0974105b44558e24a9f4e804722f04c5
+      internalID: 6271660185600155227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1148
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b712f9811445544cab4b0f90285f935
+      internalID: 2091863041139163156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 1148
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567671b67d0fd1741b403d9e752c443c
+      internalID: -2163246812769113208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 923
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44739b7335a78784fad6c9f537db2c3f
+      internalID: -8711343985339951000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 923
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117c3b26825f75c4da57002acc27bab5
+      internalID: 88920494528707192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 923
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfcc54d342cf9045a879c71d9f67458
+      internalID: -1058378553023465523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 923
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea8afebd0d39cd43b405402953ed2c5
+      internalID: 6218145289452048365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 923
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e58dcda719284c4984f2f0dfaa6dcc8
+      internalID: -310458298732764394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 923
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14283b607ffe781469566a93d889d38a
+      internalID: -1139142384789951887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 698
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc53fd3f2348754896f7851fb3c5d85
+      internalID: 7615305105897622484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 698
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564670c0bf83678409c59269d71d7783
+      internalID: -7546639137135269142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 698
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273614e0168caa647825005e1ddacc67
+      internalID: 8847468109338027579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 698
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba506be74a14c446917f6bef6e6a17c
+      internalID: 1746082215686503319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 698
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005575951917ca64b8035d4aa9818337
+      internalID: 5564176212752738527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 698
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85708f95a8ee6ad4193b71966587c758
+      internalID: 7034650435936353836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 473
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad730f78f9b482943a8ce28d090596ac
+      internalID: -1321364268765593419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 473
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1af137843ad7de4798ebde9d485dfdf
+      internalID: 2537479827829227889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 473
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06300c0451347943950519829d879c9
+      internalID: 4975360169672574788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 473
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac74544547e13c46b71df6cad5c8064
+      internalID: 2673465447501124161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 473
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8d65304c7422b429653050b959bbd1
+      internalID: 4395895419744807305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 473
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9d82f44ba1e3c4aad5df4ce621ff18
+      internalID: 8883379902905643197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83cb6b6847349f4c87383616d393ff5
+      internalID: 8229858292227476893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 248
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2de34dbef92994c93cabc185df5ca2
+      internalID: 327682705751399887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 248
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e011ee519d888b64f87df8aef2bdaed6
+      internalID: 6985928359951332622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 248
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd195e9793529ba4ea041b6acde778f7
+      internalID: 2431217021124130432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itsdarkdownhere_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 248
+        width: 675
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a46e511dc9bbe4eb57c6b57507e2f5
+      internalID: 8088749966335785448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
