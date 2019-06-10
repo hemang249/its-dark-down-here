@@ -6,7 +6,7 @@ public class LightDetectionScript : MonoBehaviour
 {
     public GameObject player;
     private PlayerController pc;
-    private bool playerInRange = false;
+    private bool playerInRange = true;
 
     [Space]
     [Header("Ray Casting Attributes")]
@@ -28,6 +28,8 @@ public class LightDetectionScript : MonoBehaviour
         {   
             if(distance <= rayLength)
             {
+                pc.effectedByLight = true;
+                pc.inDark = false;
                 CheckLightDetection();
                 playerInRange = true;
             }
@@ -45,7 +47,7 @@ public class LightDetectionScript : MonoBehaviour
     void CheckLightDetection()
     {
         Vector2 rayDir = new Vector2(player.transform.position.x , player.transform.position.y);
-        Ray2D lightRay = new Ray2D(transform.position , rayDir);
+      
         RaycastHit2D hit = Physics2D.Raycast(transform.position , rayDir , rayLength);
 
         if(hit.collider != null)
@@ -54,7 +56,7 @@ public class LightDetectionScript : MonoBehaviour
             {
                pc.inDark = false;
                
-               pc.effectedByLight = true;
+              
             
             }
          

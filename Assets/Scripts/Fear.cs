@@ -44,7 +44,7 @@ public class Fear : MonoBehaviour
     {
         UpdateFear();
         UpdateFearState();
-        Debug.Log(currentState);
+      
     }
 
     void UpdateFear()
