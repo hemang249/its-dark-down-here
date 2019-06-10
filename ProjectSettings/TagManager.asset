@@ -51,6 +51,9 @@ TagManager:
   - name: Player
     uniqueID: 3803612853
     locked: 0
-  - name: Foreground
+  - name: EnvFloor
+    uniqueID: 1834537975
+    locked: 0
+  - name: EnvForeground
     uniqueID: 2699601261
     locked: 0
