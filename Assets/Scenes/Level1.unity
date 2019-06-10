@@ -16458,6 +16458,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AmbientSound
       objectReference: {fileID: 0}
+    - target: {fileID: 4103169462918310282, guid: 0939dd475a0b810468916abbfaf3e5c4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4103169462918310280, guid: 0939dd475a0b810468916abbfaf3e5c4,
         type: 3}
       propertyPath: m_LocalPosition.x
