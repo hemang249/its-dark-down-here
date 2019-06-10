@@ -29,7 +29,9 @@ public class UIManager : MonoBehaviour
     public Image DirectionArrow;
     public Transform Exit;
 
-    
+    [Header("DistanceCounter")]
+    public TextMeshProUGUI DistanceText;
+
     [Header("Fear Bar UI")]
     public Image FearBar;
     private float fillAmount;
@@ -61,6 +63,7 @@ public class UIManager : MonoBehaviour
         UpdateTimer();
         UpdateTorchCounter();
         PauseMenu();
+        DistanceCounter();
         //UpdateDirection();
     }
 
@@ -127,6 +130,14 @@ public class UIManager : MonoBehaviour
     public void GiveUp()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
-    }  
+    }
+
+    void DistanceCounter()
+    {
+        float distance = Vector3.Distance(Player.transform.position , Exit.position);
+
+        if(DistanceText != null)    // null safety    
+            DistanceText.text = ((int)distance).ToString();
+    }
 
 }
