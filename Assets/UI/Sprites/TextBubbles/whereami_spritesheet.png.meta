@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 6a6d9d825aa9ac94188935b612d8fc18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9011141830440477251
+    second: whereami_spritesheet_0
+  - first:
+      213: 7042149051022404788
+    second: whereami_spritesheet_1
+  - first:
+      213: -711072519375033426
+    second: whereami_spritesheet_2
+  - first:
+      213: 8648547234388046032
+    second: whereami_spritesheet_3
+  - first:
+      213: -5162963004249041642
+    second: whereami_spritesheet_4
+  - first:
+      213: -5851191917180135385
+    second: whereami_spritesheet_5
+  - first:
+      213: 2855642735917726543
+    second: whereami_spritesheet_6
+  - first:
+      213: 6581299875441518855
+    second: whereami_spritesheet_7
+  - first:
+      213: -6570852375690238649
+    second: whereami_spritesheet_8
+  - first:
+      213: -7370860808960799616
+    second: whereami_spritesheet_9
+  - first:
+      213: 3638315117466926248
+    second: whereami_spritesheet_10
+  - first:
+      213: -4783084761213641770
+    second: whereami_spritesheet_11
+  - first:
+      213: 5769561855134116773
+    second: whereami_spritesheet_12
+  - first:
+      213: -1007817706373329076
+    second: whereami_spritesheet_13
+  - first:
+      213: 1688983082805998582
+    second: whereami_spritesheet_14
+  - first:
+      213: -6398756081096582811
+    second: whereami_spritesheet_15
+  - first:
+      213: 6744948537953195435
+    second: whereami_spritesheet_16
+  - first:
+      213: -6828075079580854631
+    second: whereami_spritesheet_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: whereami_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 862
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec7c2be81775d845bca15f8f77292fb
+      internalID: 9011141830440477251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 862
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe83f5ad5c9e11d40aa11d5d6ae534ec
+      internalID: 7042149051022404788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 862
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dab52ed63cdeb4d8e15f9234c3960d
+      internalID: -711072519375033426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 862
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31521fd9efec1e043bbfc3ed7c16a4ed
+      internalID: 8648547234388046032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 682
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6971fb2b4e6f9ed4ba024cab16b35308
+      internalID: -5162963004249041642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 682
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd0e541c073b8949b4aafd8f5b93f1a
+      internalID: -5851191917180135385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 682
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43d922d201dfc541964b124f64e4134
+      internalID: 2855642735917726543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 682
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b8453e08f86834d932f96db7355b93
+      internalID: 6581299875441518855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 502
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a9d33856507204daa3a02d327ea450
+      internalID: -6570852375690238649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 502
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254d1948b5484574985ba4867a5d1751
+      internalID: -7370860808960799616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 502
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3795f642e3dace40a9eb41be4663791
+      internalID: 3638315117466926248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 502
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d1f8c3752e7e2498076c6cb8a104bf
+      internalID: -4783084761213641770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 322
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339963de53a629d45be5b7976a79e0b8
+      internalID: 5769561855134116773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 322
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e3c1e001d619342b35197fe3594a69
+      internalID: -1007817706373329076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 322
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5f7f7d074dca0498b9c921c6b21ee2
+      internalID: 1688983082805998582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 322
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd61700beb865640944ab3ce78b93ff
+      internalID: -6398756081096582811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 142
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d298f3e4b4d86c04eb6f9e4d18c9f344
+      internalID: 6744948537953195435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whereami_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 142
+        width: 441
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bab5a36b1a186046911a8c2e6a8a0b1
+      internalID: -6828075079580854631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
