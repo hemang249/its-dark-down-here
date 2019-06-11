@@ -179,11 +179,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, Unity.ugui,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 51a4ce87b6616a74aa4c1e3468b9b035, type: 3}
-    m_FontSize: 97
+    m_Font: {fileID: 12800000, guid: e8a4a8f4638cbf04ca42239da29b0dae, type: 3}
+    m_FontSize: 64
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 6
     m_MaxSize: 108
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1202,7 +1202,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016107190}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: a760d43f9be92a246ba96d3208cd0fb0, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 5bb36b962c65e9145b701e17ed5e066b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1978128448}
@@ -1210,7 +1210,7 @@ VideoPlayer:
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
