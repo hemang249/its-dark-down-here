@@ -69,11 +69,11 @@ public class Fear : MonoBehaviour
 
     void UpdateFearState()
     {
-        if(fillAmount >= 0 && fillAmount <= 0.1f)
+        if(fillAmount == 0)
         {
             currentState = FearState.NotScared;
         }
-        else if(fillAmount <= 0.25f && fillAmount > 0.1f)
+        else if(fillAmount <= 0.25f && fillAmount > 0f)
         {
             currentState = FearState.NotTooScared;
         }
