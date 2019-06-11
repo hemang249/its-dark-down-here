@@ -62,14 +62,14 @@ public class TorchScript : MonoBehaviour
 
    void TorchFlicker()
    {
-       float flickerRange = Random.Range(15f , 20f);
-       float intensity = Random.Range(0.5f , 2.5f);
+       float flickerRange = Random.Range(0.5f , 3f);
+       float intensity = Random.Range(1f , 3f);
        Torch.range = flickerRange;
        Torch.intensity = intensity;
         // TODO Vary Colour Of The torch light between two values
        
        if(isUsingTorch)
-           Invoke("TorchFlicker", 0.5f);
+           Invoke("TorchFlicker", 0.1f);
        else
            Torch.intensity = 0f;
    }
