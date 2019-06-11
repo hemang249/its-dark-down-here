@@ -4,23 +4,11 @@ using UnityEngine;
 
 public class CollisionAudio : MonoBehaviour
 {
-   public AudioSource[] audioSource;
-   private AudioSource selectedAudioSource;    
+   public AudioSource triggerAudioSource;    
    public GameObject FearPanel;
-   private Fear fear;
-   private int fearState;
    private bool played = false;
-   void Start()
-   {
-       FearPanel = GameObject.FindGameObjectWithTag("FearPanel");
-        fear = FearPanel.GetComponent<Fear>();
-   }
-
-   void Update()
-   {
-       fearState = (int)fear.currentState;
-   }
-   void SelectAudioClip()
+  
+  /*  void SelectAudioClip()
    {
        switch(fearState)
        {
@@ -29,15 +17,16 @@ public class CollisionAudio : MonoBehaviour
            case 2: selectedAudioSource = audioSource[fearState]; break;
            case 3: selectedAudioSource = audioSource[fearState]; break;
        }
-   }
+   } */
 
     void OnTriggerEnter2D(Collider2D other) 
     {
         if(other.gameObject.CompareTag("Player") && !played)
         {
             played = true;
-            selectedAudioSource.Play();
+            triggerAudioSource.Play();
             
         }
     }
+    
 }

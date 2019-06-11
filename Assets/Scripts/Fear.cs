@@ -24,6 +24,7 @@ public class Fear : MonoBehaviour
     public  float fearAmount;
 
     public enum FearState{
+        NotScared,
         NotTooScared,
         LittleScared,
         ModeratelyScared,
@@ -35,7 +36,7 @@ public class Fear : MonoBehaviour
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
-        currentState = FearState.NotTooScared;
+        currentState = FearState.NotScared;
         fearAmount = 0f;
         fillAmount = 0f;
     }
@@ -59,14 +60,20 @@ public class Fear : MonoBehaviour
         if(LocalDarkTime != 0)      
             fillAmount = fearAmount / 10f;      // Every 1 sec = 0.1 Fill of Bar
         else
-            fillAmount -= 0.005f;       // Decrease the bar once in light
-        
+        {
+            if(fillAmount >= 0.005f)
+                fillAmount -= 0.005f;       // Decrease the bar once in light
+        }
 
     }
 
     void UpdateFearState()
     {
-        if(fillAmount <= 0.25f)
+        if(fillAmount >= 0 && fillAmount <= 0.1f)
+        {
+            currentState = FearState.NotScared;
+        }
+        else if(fillAmount <= 0.25f && fillAmount > 0.1f)
         {
             currentState = FearState.NotTooScared;
         }
