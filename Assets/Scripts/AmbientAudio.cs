@@ -5,9 +5,9 @@ using UnityEngine;
 public class AmbientAudio : MonoBehaviour
 {
    
-    [Header("Audio Sources")]
-    public AudioSource[] audioSource;
-    private AudioSource selectedAudioSource;
+    [Header("Audio Clips")]
+    public AudioSource selectedAudioSource;
+    public AudioClip[] audioClips;
 
     [Space]
     [Header("Refrences")]
@@ -19,6 +19,7 @@ public class AmbientAudio : MonoBehaviour
 
     void Start()
     {
+        selectedAudioSource = GetComponent<AudioSource>();
         fear = FearPanel.GetComponent<Fear>();
         
     }
@@ -33,6 +34,7 @@ public class AmbientAudio : MonoBehaviour
         {
             played = false;
             previousState = fearState;
+          
         }
 
         if(selectedAudioSource != null && !played)
@@ -44,6 +46,6 @@ public class AmbientAudio : MonoBehaviour
 
     void SelectAudioSource()
     {
-         selectedAudioSource = audioSource[fearState];
+         selectedAudioSource.clip = audioClips[fearState];
     }
 }
