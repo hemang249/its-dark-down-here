@@ -64,6 +64,7 @@ public class UIManager : MonoBehaviour
         UpdateTorchCounter();
         PauseMenu();
         DistanceCounter();
+        UpdateDirection();
         //UpdateDirection();
     }
 
@@ -92,8 +93,9 @@ public class UIManager : MonoBehaviour
 
     void UpdateDirection()
     {
-        float relativeAngle = Vector3.Angle(Player.transform.position , Exit.position );
-        DirectionArrow.rectTransform.rotation = Quaternion.Euler(0,0,relativeAngle);
+        float rotation  = Vector3.Angle(Player.transform.position , Exit.position);
+       
+        DirectionArrow.rectTransform.rotation = Quaternion.Euler(0,0,rotation + 50f);
     }
 
     void PauseMenu()
