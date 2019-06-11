@@ -5,16 +5,13 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class PostProcessingTriggers : MonoBehaviour
 {
-   public PostProcessProfile[] postProcProf;
-   private PostProcessProfile currentProf;
-   public PostProcessVolume postProcVol;
-   public GameObject FearPanel;
+   public GameObject[] postProcVol;
+    public GameObject FearPanel;
    private Fear fear;
    private int fearState;
    void Start()
    {
        fear = FearPanel.GetComponent<Fear>();
-       currentProf = postProcVol.GetComponent<PostProcessProfile>();
    }
 
    void Update()
@@ -25,7 +22,22 @@ public class PostProcessingTriggers : MonoBehaviour
 
    void SwitchProfile()
    {
-       currentProf = postProcProf[fearState];
+       if(fearState > 0 && fearState < 4)
+       {
+           postProcVol[fearState].SetActive(true);
+           postProcVol[fearState - 1].SetActive(false);
+           postProcVol[fearState + 1].SetActive(false);
+       }
+       else if(fearState == 0)
+       {
+           postProcVol[fearState].SetActive(true);
+           postProcVol[fearState + 1].SetActive(false);
+       }
+       else
+       {
+           postProcVol[fearState].SetActive(true);
+           postProcVol[fearState - 1].SetActive(false);
+       }
    }
 
 

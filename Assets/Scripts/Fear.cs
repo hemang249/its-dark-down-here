@@ -61,8 +61,9 @@ public class Fear : MonoBehaviour
             fillAmount = fearAmount / 10f;      // Every 1 sec = 0.1 Fill of Bar
         else
         {
-            if(fillAmount >= 0.005f)
-                fillAmount -= 0.005f;       // Decrease the bar once in light
+            fillAmount -= 0.005f;       // Decrease the bar once in light
+            if(fillAmount < 0)
+                fillAmount = 0;
         }
 
     }
