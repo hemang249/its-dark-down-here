@@ -12,12 +12,13 @@ public class MainMenu : MonoBehaviour
 
     }
 
-    /**
-     public void PlayGameWithWait()
+
+    /*
+     * public void PlayGameWithWait()
     {
-        Invoke ("PlayGame", 1.0f);
+        Invoke ("PlayGame", 3.0f);
     }
-    **/
+    */
 
     public AudioSource uiSounds;
     public AudioClip hoverSound;
