@@ -21,12 +21,19 @@ public class CollisionAudio : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) 
     {
+        /** 
+         *  This code only allow for one single play of audiosource.
+         *
         if(other.gameObject.CompareTag("Player") && !played)
-        {
-            played = true;
-            triggerAudioSource.Play();
-            
-        }
+         {
+             played = true;
+             triggerAudioSource.Play();
+             
+         }
+        **/
+
+        triggerAudioSource.Play();
+
     }
     
 }
