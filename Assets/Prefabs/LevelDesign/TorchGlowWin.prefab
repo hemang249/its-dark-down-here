@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 4413335476938760443}
   - component: {fileID: 1901744635747595975}
   - component: {fileID: 1984660648441355261}
-  m_Layer: 0
-  m_Name: TorchGlow
+  m_Layer: 11
+  m_Name: TorchGlowWin
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59,8 +59,8 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
-  m_Range: 20
+  m_Intensity: 1
+  m_Range: 12
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -129,7 +129,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 10
+  MaxDistance: 18.160046
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -139,8 +139,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.1
-      value: 1
+      time: 0.0034599304
+      value: 0.9930512
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -148,16 +148,16 @@ AudioSource:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.6516738
-      value: 0.7355805
-      inSlope: -0.8810439
-      outSlope: -0.8810439
+      time: 0.61306566
+      value: 0.9895514
+      inSlope: -0.0107198255
+      outSlope: -0.0107198255
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.15566587
-      outWeight: 0.5953535
+      inWeight: 0.33333334
+      outWeight: 0.78119415
     - serializedVersion: 3
-      time: 1
+      time: 0.7300873
       value: 0
       inSlope: -1.1111112
       outSlope: -1.1111112
