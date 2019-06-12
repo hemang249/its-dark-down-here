@@ -1,0 +1,1411 @@
+fileFormatVersion: 2
+guid: f64440a362ece9b4e946d45eda068c65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3880759673309121797
+    second: allyewhoenter_spritesheet_0
+  - first:
+      213: -8108951335168254890
+    second: allyewhoenter_spritesheet_1
+  - first:
+      213: -3466062641111435464
+    second: allyewhoenter_spritesheet_2
+  - first:
+      213: -1490498271077735509
+    second: allyewhoenter_spritesheet_3
+  - first:
+      213: 7839615756154120029
+    second: allyewhoenter_spritesheet_4
+  - first:
+      213: -28912987244630751
+    second: allyewhoenter_spritesheet_5
+  - first:
+      213: 3129268495796045232
+    second: allyewhoenter_spritesheet_6
+  - first:
+      213: -6022436747424752842
+    second: allyewhoenter_spritesheet_7
+  - first:
+      213: 8471375545009118306
+    second: allyewhoenter_spritesheet_8
+  - first:
+      213: 5209780234630516595
+    second: allyewhoenter_spritesheet_9
+  - first:
+      213: 4308483674963018955
+    second: allyewhoenter_spritesheet_10
+  - first:
+      213: 7037045650853088419
+    second: allyewhoenter_spritesheet_11
+  - first:
+      213: -1376073011125309859
+    second: allyewhoenter_spritesheet_12
+  - first:
+      213: 174615820685737114
+    second: allyewhoenter_spritesheet_13
+  - first:
+      213: 4654585404413275254
+    second: allyewhoenter_spritesheet_14
+  - first:
+      213: -3928435418051977763
+    second: allyewhoenter_spritesheet_15
+  - first:
+      213: 8030199178183136257
+    second: allyewhoenter_spritesheet_16
+  - first:
+      213: -4071499325685156772
+    second: allyewhoenter_spritesheet_17
+  - first:
+      213: 377015696274273373
+    second: allyewhoenter_spritesheet_18
+  - first:
+      213: 4873746164644198280
+    second: allyewhoenter_spritesheet_19
+  - first:
+      213: 3889606992865707067
+    second: allyewhoenter_spritesheet_20
+  - first:
+      213: 8131984198839435712
+    second: allyewhoenter_spritesheet_21
+  - first:
+      213: 1377515774054017529
+    second: allyewhoenter_spritesheet_22
+  - first:
+      213: 8319562707637970024
+    second: allyewhoenter_spritesheet_23
+  - first:
+      213: -3039587341538397571
+    second: allyewhoenter_spritesheet_24
+  - first:
+      213: -6938259918336694684
+    second: allyewhoenter_spritesheet_25
+  - first:
+      213: -1578091504648971136
+    second: allyewhoenter_spritesheet_26
+  - first:
+      213: -847838803023507016
+    second: allyewhoenter_spritesheet_27
+  - first:
+      213: -6339195268875432965
+    second: allyewhoenter_spritesheet_28
+  - first:
+      213: 3871321747123614481
+    second: allyewhoenter_spritesheet_29
+  - first:
+      213: 1766052309880356459
+    second: allyewhoenter_spritesheet_30
+  - first:
+      213: 7968398113834098910
+    second: allyewhoenter_spritesheet_31
+  - first:
+      213: 3208736241156424632
+    second: allyewhoenter_spritesheet_32
+  - first:
+      213: -4251722530480392351
+    second: allyewhoenter_spritesheet_33
+  - first:
+      213: 8016228282841000609
+    second: allyewhoenter_spritesheet_34
+  - first:
+      213: -7936160493925901039
+    second: allyewhoenter_spritesheet_35
+  - first:
+      213: -1775687922567447509
+    second: allyewhoenter_spritesheet_36
+  - first:
+      213: -7043325778223401197
+    second: allyewhoenter_spritesheet_37
+  - first:
+      213: 4580792298332093231
+    second: allyewhoenter_spritesheet_38
+  - first:
+      213: -5127784456779125544
+    second: allyewhoenter_spritesheet_39
+  - first:
+      213: 2529251954111923812
+    second: allyewhoenter_spritesheet_40
+  - first:
+      213: 8873853804548931647
+    second: allyewhoenter_spritesheet_41
+  - first:
+      213: 7269180245304592106
+    second: allyewhoenter_spritesheet_42
+  - first:
+      213: -7489230719019312625
+    second: allyewhoenter_spritesheet_43
+  - first:
+      213: 538875329846243650
+    second: allyewhoenter_spritesheet_44
+  - first:
+      213: -5385678889300915179
+    second: allyewhoenter_spritesheet_45
+  - first:
+      213: -5517836786658236120
+    second: allyewhoenter_spritesheet_46
+  - first:
+      213: -7689345213330096910
+    second: allyewhoenter_spritesheet_47
+  - first:
+      213: -3091877595981488022
+    second: allyewhoenter_spritesheet_48
+  - first:
+      213: 520338419641566003
+    second: allyewhoenter_spritesheet_49
+  - first:
+      213: 124541732699549413
+    second: allyewhoenter_spritesheet_50
+  - first:
+      213: 5183750048150110463
+    second: allyewhoenter_spritesheet_51
+  - first:
+      213: 3997022698590794064
+    second: allyewhoenter_spritesheet_52
+  - first:
+      213: 6006375405348177138
+    second: allyewhoenter_spritesheet_53
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3878
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee75036c9d967d45a34f4a0cd465bd2
+      internalID: 3880759673309121797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3878
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57526317dee6ed4298b60e7e10fb276
+      internalID: -8108951335168254890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 3878
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151575e0d042cdf46b2665cca827a51d
+      internalID: -3466062641111435464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 3878
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf899f56ef76e24e8a0d65edd51fff9
+      internalID: -1490498271077735509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3644
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefcfe05ec6e84e4790b27449e2795e8
+      internalID: 7839615756154120029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3644
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db12b4ed921228d48a45018215fed844
+      internalID: -28912987244630751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 3644
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68195d503b1645d40a3d59eeb232060e
+      internalID: 3129268495796045232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 3644
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406f6f11642cbaa44a9d7a6ba0067974
+      internalID: -6022436747424752842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3410
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68c5991388d3cb4ba5fcdef5702e1c8
+      internalID: 8471375545009118306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3410
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7022bc56c66d7bd4faf48edb2e87f769
+      internalID: 5209780234630516595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 3410
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6f34ae42ed76a428a67067661156ff
+      internalID: 4308483674963018955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 3410
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cad4d150ffd834ea56888ffbb829a0
+      internalID: 7037045650853088419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3176
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbd2bdee231fcf41a2b34eaa8f8c919
+      internalID: -1376073011125309859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3176
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b374aa1ae5b04647b76e25740ffb19e
+      internalID: 174615820685737114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 3176
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c32c5c03e878544b29ab19f1503e03
+      internalID: 4654585404413275254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 3176
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84597918491c8ec429b1960eaaa4e954
+      internalID: -3928435418051977763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2942
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4b0254f4888554c861ccabe1df7cbf
+      internalID: 8030199178183136257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2942
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9fe386384c6a84ca150f63a7dec16b
+      internalID: -4071499325685156772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 2942
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8f425f2df3c1943921ddd06ff0f1de
+      internalID: 377015696274273373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 2942
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c01c61332db3c1459cc16829b4714b0
+      internalID: 4873746164644198280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2708
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b8743a9f3a7ca4f8729a94c71342eb
+      internalID: 3889606992865707067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2708
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bdf3117547be84a91a240cdec6e24c
+      internalID: 8131984198839435712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 2708
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9478f0e8a89c8942b8222e334c95cce
+      internalID: 1377515774054017529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 2708
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b79d14ee76e12d43a62fecc8a35e941
+      internalID: 8319562707637970024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2474
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1afad2002a19d43b314489162eceb6
+      internalID: -3039587341538397571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2474
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca22fcd069db55409f5c8ef0166bf0b
+      internalID: -6938259918336694684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 2474
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0b5be4b0f65b04a91ceb7e6023f8b9
+      internalID: -1578091504648971136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 2474
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0762b4e8356631d48865742c96d1a606
+      internalID: -847838803023507016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2240
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f69a1907f68ab40996a6b140d905d7
+      internalID: -6339195268875432965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2240
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801e3ddcba6905243afc13c20e3808b6
+      internalID: 3871321747123614481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 2240
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5100d1c02e844fe49bc5012270f9dcf8
+      internalID: 1766052309880356459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 2240
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe872fb4311c71746910cad9e9f6286b
+      internalID: 7968398113834098910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2006
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122f1ee9d4f5a10458624c897c1ca0fd
+      internalID: 3208736241156424632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2006
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9912bca3f5692ab4a900b576501a3a1a
+      internalID: -4251722530480392351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 2006
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a02c9f17a5454d4f807c14319ad9d94
+      internalID: 8016228282841000609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 2006
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a7fcec83f107341973b4a5201d8bf1
+      internalID: -7936160493925901039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1772
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cce2cdffaccc6c41b6e2de9d2ff05ad
+      internalID: -1775687922567447509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1772
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df00876861a37d04ba1ad4d41cb8575a
+      internalID: -7043325778223401197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1772
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fd06b1922eaaa47a3f146b61dd339d
+      internalID: 4580792298332093231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 1772
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97f10c7984a7b34fadaad2468954469
+      internalID: -5127784456779125544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1538
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4018887d22f3c48b0e31037c2ae405
+      internalID: 2529251954111923812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1538
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe845e7207c109746988354c16c03004
+      internalID: 8873853804548931647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1538
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac237dd76c964c41a258838d3106c2e
+      internalID: 7269180245304592106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 1538
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d79f0facaa880442a42726ca7887f32
+      internalID: -7489230719019312625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1304
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c567dd3e3bfff6c4086f2de1b1bc4a4a
+      internalID: 538875329846243650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1304
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9941ec0a295e0f42b00103912602e0a
+      internalID: -5385678889300915179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1304
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e0b555198a3484ab70849a1efb97c4
+      internalID: -5517836786658236120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 1304
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4975c6dc8fdee1f4e9e6b8d5018b3e20
+      internalID: -7689345213330096910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1070
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de7e13f4ce02ed4c96cfe8605547a43
+      internalID: -3091877595981488022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1070
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9c2a30bdec9374694a9fc35d8c4f10
+      internalID: 520338419641566003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1070
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786641f00624bbe4ba9254bb121887ff
+      internalID: 124541732699549413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 1070
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4051033b119b34195bffae9c040ea4
+      internalID: 5183750048150110463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 836
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d875891d6071a54e97878f874139765
+      internalID: 3997022698590794064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allyewhoenter_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 836
+        width: 984
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343fc06202c880349a5b77822c7d793f
+      internalID: 6006375405348177138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
