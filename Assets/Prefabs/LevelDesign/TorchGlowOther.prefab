@@ -67,16 +67,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: TorchGlowOther
       objectReference: {fileID: 0}
-    - target: {fileID: 4413335476938760443, guid: e566d0069001df0409c900160dfca72c,
+    - target: {fileID: 5886900270672737409, guid: e566d0069001df0409c900160dfca72c,
         type: 3}
-      propertyPath: m_Color.r
-      value: 0.14582491
-      objectReference: {fileID: 0}
-    - target: {fileID: 4413335476938760443, guid: e566d0069001df0409c900160dfca72c,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 4413335476938760443, guid: e566d0069001df0409c900160dfca72c,
         type: 3}
       propertyPath: m_Range
