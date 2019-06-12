@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2432772446482461339}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.05, y: -0.07813263, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -46,11 +46,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedAudioSource: {fileID: 2432772446259766369}
   audioClips:
-  - {fileID: 0}
-  - {fileID: 8300000, guid: 85baede6bb070e74fbce482d35b27bea, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: d7f85528a5111be4fa709f03fa35944d, type: 3}
+  - {fileID: 8300000, guid: 56c7f535b9e878d4eb5e31f620815d50, type: 3}
+  - {fileID: 8300000, guid: e92ff3cd10ffdbd479c4b0f260141169, type: 3}
+  - {fileID: 8300000, guid: a2ebdce65914c464f8df1a4050f3865f, type: 3}
+  - {fileID: 8300000, guid: fe4bde21dafbd274f9377ffbff1aeaff, type: 3}
   FearPanel: {fileID: 0}
 --- !u!82 &2432772446259766369
 AudioSource:
