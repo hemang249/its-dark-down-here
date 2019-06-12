@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
     [Header("Triggers")]
     public bool inDark = false;     // To check if player is in dark
     public bool effectedByLight = true;     // To check if any Light is effecting plauyer
+    public bool ableToMove = false;
 
     // Start is called before the first frame update
     void Start()
@@ -43,8 +44,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ProcessInputs();
-        Move();
+        if(ableToMove)
+        {
+            ProcessInputs();
+            Move();
+        }    
 
         if(effectedByLight == false)
             inDark = true;
@@ -91,7 +95,7 @@ public class PlayerController : MonoBehaviour
        }
     }
 
-    void OnTriggerEnter2D(Collider2D other) 
+    void OnCollisionEnter2D(Collision2D other) 
     {
         if(other.gameObject.tag == "CollectibleTorch")
         {
@@ -100,4 +104,6 @@ public class PlayerController : MonoBehaviour
         }        
     }
 
+   
+    
 }
