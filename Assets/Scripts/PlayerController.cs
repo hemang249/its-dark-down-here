@@ -14,6 +14,12 @@ public class PlayerController : MonoBehaviour
     [Range(0,15)]
     public float movementBaseSpeed = 5.0f;  // movement speed
 
+    private bool backIdle = false;
+    private bool forwardIdle = false;
+    private bool walkForward = false;
+    private bool walkBackward = false;
+
+
     [Space]
     [Header("Character Statistics")]
     public Vector3 movementDirection;
@@ -84,14 +90,45 @@ public class PlayerController : MonoBehaviour
     {
        transform.position += movementBaseSpeed * movementDirection * Time.deltaTime;    // Using Transform based for simpler outcomes instead of using rigid body and complicating movement
 
-       if(movementDirection.y != 0)     // If moving along the  Y Axis , Play the Top Down Animation
+       if(movementDirection.x == 0 && movementDirection.y == 0 )
        {
-           animator.SetBool("isWalkingTopDown",true);
+           walkForward = false;
+           animator.SetBool("walkForward",walkForward);
+           walkBackward = false;
+           animator.SetBool("walkBackward",walkBackward);
+           backIdle = true;
+           animator.SetBool("backIdle",backIdle);
          
+       }
+
+       if(movementDirection.y > 0)     // If moving along the  Y Axis , Play the Top Down Animation
+       {
+           backIdle = false;
+           animator.SetBool("backIdle",backIdle);
+          walkBackward = false;
+          animator.SetBool("walkBackward",walkBackward);
+          walkForward = true;
+          animator.SetBool("walkForward",walkForward);
+         
+       }
+       else if(movementDirection.y < 0)
+       {
+           walkForward = false;
+           animator.SetBool("walkForward",walkForward);
+           backIdle = false;
+           animator.SetBool("backIdle",backIdle);
+           walkBackward = true;
+           animator.SetBool("walkBackward",walkBackward);
+       }
+
+       if(movementDirection.x < 0)
+       {
+           sr.flipX = false;
+
        }
        else
        {
-           animator.SetBool("isWalkingTopDown",false);
+           sr.flipX = true;
        }
     }
 

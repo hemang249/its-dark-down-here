@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class TextBox : MonoBehaviour
 {
     public  Animator TextBubbleAnimator;
     public GameObject TextBubble;
+    public TextMeshProUGUI AdvanceText;
     private bool playWhatHappened = false;
     private bool exitAnim = false;
     private bool playWhereAmI = false;
@@ -24,25 +26,26 @@ public class TextBox : MonoBehaviour
     }
     void Update() 
     {
-        if(!playWhatHappened && Input.GetKey(KeyCode.Z))
+        if(!playWhatHappened && Input.GetKey(KeyCode.Mouse0))
         {
             playWhatHappened = true;
             TextBubbleAnimator.SetBool("playWhatHappened",playWhatHappened);
             Invoke("DelayWhereAmI",1f);
         }
 
-        if(playWhereAmI && Input.GetKey(KeyCode.Z))
+        if(playWhereAmI && Input.GetKey(KeyCode.Mouse0))
         {
             playWhereAmI = true;
             TextBubbleAnimator.SetBool("playWhereAmI",playWhereAmI);
             Invoke("DelayExit",1f);
         }
 
-        if(exitAnim && Input.GetKey(KeyCode.Z))
+        if(exitAnim && Input.GetKey(KeyCode.Mouse0))
         {
             exitAnim = true;
             TextBubbleAnimator.SetBool("exitAnim",exitAnim);
             pc.ableToMove = true;
+            Destroy(AdvanceText);
             Destroy(TextBubble);
         
         }

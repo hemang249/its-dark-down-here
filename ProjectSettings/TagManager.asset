@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FearPanel
   - CollectibleTorch
+  - Statue
   layers:
   - Default
   - TransparentFX
