@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 29413477}
   - component: {fileID: 29413479}
   m_Layer: 5
-  m_Name: Enter
+  m_Name: EnterText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,8 +149,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 883742549}
+  m_Children: []
   m_Father: {fileID: 297821074}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -477,6 +476,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 297821074}
+  - {fileID: 883742549}
   m_Father: {fileID: 943778598}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -577,8 +577,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 29413476}
-  m_RootOrder: 0
+  m_Father: {fileID: 569888221}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -756,8 +756,8 @@ RectTransform:
   - {fileID: 2031196689}
   - {fileID: 2016107191}
   - {fileID: 569888221}
-  m_Father: {fileID: 1978128449}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -812,7 +812,7 @@ Canvas:
   m_GameObject: {fileID: 943778597}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -904,8 +904,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 943778598}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -969,7 +968,7 @@ VideoPlayer:
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
@@ -981,7 +980,7 @@ VideoPlayer:
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
+  m_SkipOnDrop: 0
   m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
@@ -998,7 +997,7 @@ GameObject:
   - component: {fileID: 2031196691}
   - component: {fileID: 2031196690}
   m_Layer: 5
-  m_Name: FadeIn
+  m_Name: FadeInOverlay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1209,6 +1208,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1327539064418220746, guid: 95b43bd1f5e5d6d4d9dafd268c58ebe1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95b43bd1f5e5d6d4d9dafd268c58ebe1, type: 3}
