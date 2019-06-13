@@ -142,4 +142,10 @@ public class UIManager : MonoBehaviour
             DistanceText.text = ((int)distance).ToString();
     }
 
+    public void Restart()
+    {
+        int currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(currentScene);
+    }
+
 }

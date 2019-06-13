@@ -6,11 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject fadeIn;
-    public VideoPlayer MainMenuVideo;
+  //  public GameObject fadeIn;
+    public VideoPlayer MainMenuVid;
+    
 
     void Start()
     {
+       MainMenuVid.Play();
     }
 
     public void PlayGame()
