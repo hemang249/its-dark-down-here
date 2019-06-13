@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class TextBox : MonoBehaviour
 {
     public  Animator TextBubbleAnimator;
     public GameObject TextBubble;
+    public TextMeshProUGUI AdvanceText;
     private bool playWhatHappened = false;
     private bool exitAnim = false;
     private bool playWhereAmI = false;
@@ -43,6 +45,7 @@ public class TextBox : MonoBehaviour
             exitAnim = true;
             TextBubbleAnimator.SetBool("exitAnim",exitAnim);
             pc.ableToMove = true;
+            Destroy(AdvanceText);
             Destroy(TextBubble);
         
         }
