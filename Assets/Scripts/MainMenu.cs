@@ -1,10 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+  //  public GameObject fadeIn;
+    public VideoPlayer MainMenuVid;
+    
+
+    void Start()
+    {
+       MainMenuVid.Play();
+    }
+
     public void PlayGame()
     {
         ClickSound();

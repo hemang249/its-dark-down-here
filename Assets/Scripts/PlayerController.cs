@@ -124,11 +124,13 @@ public class PlayerController : MonoBehaviour
        if(movementDirection.x < 0)
        {
            sr.flipX = false;
+         
 
        }
-       else
+       else if(movementDirection.x > 0)
        {
            sr.flipX = true;
+           
        }
     }
 
