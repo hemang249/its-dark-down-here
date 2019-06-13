@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FearPanel
+  - CollectibleTorch
+  - Statue
+  - Throne
+  - Cake
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - PostProcessing
+  - Traps
+  - Torches
+  - Floor
+  - Collectables
+  - Bats
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 1318459873
+    locked: 0
+  - name: Walls
+    uniqueID: 314802975
+    locked: 0
+  - name: EnvFloor
+    uniqueID: 1834537975
+    locked: 0
+  - name: Player
+    uniqueID: 3803612853
+    locked: 0
+  - name: EnvForeground
+    uniqueID: 2699601261
+    locked: 0
