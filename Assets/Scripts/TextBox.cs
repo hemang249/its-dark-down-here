@@ -8,7 +8,7 @@ public class TextBox : MonoBehaviour
     public  Animator TextBubbleAnimator;
     public GameObject TextBubble;
     public TextMeshProUGUI AdvanceText;
-    private bool playWhatHappened = false;
+    private bool playItsDark = false;
     private bool exitAnim = false;
     private bool playWhereAmI = false;
     private GameObject Player;
@@ -26,21 +26,21 @@ public class TextBox : MonoBehaviour
     }
     void Update() 
     {
-        if(!playWhatHappened && Input.GetKey(KeyCode.Mouse0))
-        {
-            playWhatHappened = true;
-            TextBubbleAnimator.SetBool("playWhatHappened",playWhatHappened);
-            Invoke("DelayWhereAmI",1f);
-        }
-
-        if(playWhereAmI && Input.GetKey(KeyCode.Mouse0))
+        if(!playWhereAmI && Input.anyKey)
         {
             playWhereAmI = true;
             TextBubbleAnimator.SetBool("playWhereAmI",playWhereAmI);
-            Invoke("DelayExit",1f);
+            Invoke("DelayItsDark",0.5f);
         }
 
-        if(exitAnim && Input.GetKey(KeyCode.Mouse0))
+        if(playItsDark && Input.anyKey)
+        {
+            playItsDark = true;
+            TextBubbleAnimator.SetBool("playItsDark",playItsDark);
+            Invoke("DelayExit",0.5f);
+        }
+
+        if(exitAnim && Input.anyKey)
         {
             exitAnim = true;
             TextBubbleAnimator.SetBool("exitAnim",exitAnim);
@@ -54,9 +54,9 @@ public class TextBox : MonoBehaviour
     }
     
     
-    void DelayWhereAmI()
+    void DelayItsDark()
     {
-        playWhereAmI = true;
+        playItsDark = true;
     }
 
     void DelayExit()
