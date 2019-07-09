@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine.Serialization;
+using UnityEditor.Experimental.SceneManagement;
+using UnityEngine.Experimental.Rendering.LWRP;
 
 public class LightFlicker : MonoBehaviour
 {
